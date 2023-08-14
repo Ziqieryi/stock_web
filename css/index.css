@@ -1,0 +1,35 @@
+/* 公共配置 */
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.rightfix {
+    float: right;
+}
+.leftfix {
+    float: left;
+}
+/* #region头部标题start */
+.title {
+    margin-bottom: 20px;
+    background-color: rgb(244,246,249);
+    color: rgb(128,128,128);
+    font-size: 22px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.title-text {
+    font-size: 22px;
+    margin: 0;
+    line-height: 40px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* margin: auto; */
+    text-align: center;
+}
+/* #endregion头部标题end */
